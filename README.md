@@ -6,4 +6,6 @@
 
 [Version 3](https://janedonnelly.GitHub.io/john_baskerville/baskerville3.html)
 
+[Version 4](https://janedonnelly.GitHub.io/john_baskerville/baskerville4.html)
+
 # Type History

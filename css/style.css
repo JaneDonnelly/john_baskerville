@@ -84,6 +84,7 @@ nav {
     background-color: #8F0040;
     padding: 1em 0;
     font-size: 0.75em;
+    box-shadow: 0 0 10px 0 black;
 }
 
 
@@ -150,6 +151,7 @@ img{
   margin: 3em auto;
   padding: 0;
   max-width: 100%;
+
 }
 /*------------------- FOOTER ----------------------*/
   footer{

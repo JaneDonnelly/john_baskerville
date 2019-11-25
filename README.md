@@ -8,4 +8,6 @@
 
 [Version 4](https://janedonnelly.github.io/john_baskerville/baskerville4.html)
 
+[Version 5](https://janedonnelly.github.io/john_baskerville/baskerville5.html)
+
 # Type History

@@ -9,16 +9,29 @@
 
 /*--------- MAIN STYLYLING ----------*/
 body {
-
+  width:80%;
+  max-width: 700px;
+  margin: auto;
   background: #fafafa;
   color: #333;
   font-family: 'Libre Baskerville', serif;
 }
+/*------------ADDING FLEXBOX----------*/
+article {
+  display: flex;}
+
+.main {flex: 3;
+padding-right: 1em;}
+
+aside{flex:1;
+font-size: 0.75em;
+font-style:italic;
+border-left: 1px solid #333;
+padding-left: 1em;
+}
 /*-------- TYPOGRAPHY -----------*/
 
-section, header, footer {width:80%;
-max-width: 700px;
-margin: auto;}
+section, header, footer {}
 
 h1, h2, h3 {
   font-weight: normal;
@@ -159,3 +172,22 @@ img{
   font-size: 0.75em;
   padding: 2em 0 4em 0
   }
+/*------------------ MEDIA QUERIES--------------------*/
+
+/*------------------ TABLET------------------------*/
+@media (max-width: 50em) {
+
+body{
+  width: 85%;
+}
+
+header,p,article{
+  width:95%;
+  padding: 0.5em;
+}
+article { flex-flow: column;
+  flex direction: column;
+
+}
+
+}

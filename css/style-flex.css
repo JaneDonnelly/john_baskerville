@@ -1,0 +1,278 @@
+/*--------- CSS Reset ------*/
+
+*{
+  padding:0;
+  margin:0;
+  font-size: 100%;
+  line-height: 1em;
+}
+
+/*--------- MAIN STYLYLING ----------*/
+body {
+  width:80%;
+  max-width: 700px;
+  margin: auto;
+  background: #fafafa;
+  color: #333;
+  font-family: 'Libre Baskerville', serif;
+}
+/*------------ADDING FLEXBOX----------*/
+article {
+  display: flex;}
+
+.main {flex: 3;
+padding-right: 1em;}
+
+aside{flex:1;
+font-size: 0.75em;
+font-style:italic;
+border-left: 1px solid #333;
+padding-left: 1em;
+}
+/*-------- TYPOGRAPHY -----------*/
+
+section, header, footer {}
+
+h1, h2, h3 {
+  font-weight: normal;
+  color: #8F0040;
+  text-align: center;
+}
+
+p, cite {font-family: 'Open Sans', sans-serif;}
+p, blockquote {
+  margin-bottom: 1.53em;
+  line-height: 1.4;
+}
+
+h1 {font-size: 2.827em;
+    margin-top: 2em;
+    margin-bottom: 0.1em;
+}
+
+h2 {font-size: 1.999em;
+margin: 3em 0 1em 0}
+
+h3 {font-size: 1.414em;
+margin-bottom: 1.5em;}
+
+
+blockquote {
+  font-size: 1.414em;
+  hanging-punctuation: first;
+  text-indent: -0.44em;
+  color: #8F0040
+}
+
+blockquotes cite{
+  font-size: 0.75em;
+  color; #333}
+
+header h3 {font-style: italic;}
+
+header p {font-size: 1.141em;}
+
+.dark {background: #333;
+color: white;
+padding: 2em 0}
+
+/*--------------------- STYLING LINKS -----------------*/
+a {
+    color: #8F0040;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #E9B6C9;
+    border-bottom: 1px dotted;
+}
+
+/*------------------- NAVIGATION ------------------*/
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    background-color: #8F0040;
+    padding: 1em 0;
+    font-size: 0.75em;
+    box-shadow: 0 0 10px 0 black;
+}
+
+
+nav ul {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 20px;
+}
+
+nav a:link {
+    color: #fafafa;
+}
+
+nav a:visited {
+    color: #fafafa;
+}
+
+nav a:hover {
+    border-bottom: none;
+    color: #26BED5;
+
+}
+/*-------------------TABLE STYLING----------------*/
+
+table{
+  margin: auto;
+  display: table;
+  border-collapse: collapse;
+  border spacing: 2px;
+  margin-bottom: 2em;
+  width: 100%;
+}
+
+caption {
+  margin-bottom: 1.5em;
+  text-transform: uppercase;
+}
+
+th{
+  color: #fafafa;
+  text-transform:uppercase;
+  font-weight: normal;
+  text-align: left;
+  background: #8F0040;
+}
+
+th, td{
+  padding: .6em;
+}
+
+table, td{
+  background:#FFB0B7;
+  border: 1px solid #fafafa;
+}
+/*-------------------IMAGES------------------------*/
+
+img{
+  display: block;
+  margin: 3em auto;
+  padding: 0;
+  max-width: 100%;
+
+}
+/*------------------- FOOTER ----------------------*/
+  footer{
+  text-align: center;
+  font-size: 0.75em;
+  padding: 2em 0 4em 0
+  }
+
+  .connections {
+    position: relative;
+    margin: 0 auto;
+  }
+
+  .connections ul {
+    margins:0;
+    padding:0;
+  }
+
+  .connections li {
+    margin: 0 15px;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+  }
+
+  .connections a: link {
+    border-bottom: none;
+  }
+
+  .connections img {
+    opacity: 0.5;
+    border: none;
+  }
+
+  .connections a: hover img {
+    opacity: 1.0;
+    border-bottom:none;
+   transition: all 0.3s ease-in-out;
+  }
+
+
+/*------------------ MEDIA QUERIES--------------------*/
+
+/*------------------ TABLET------------------------*/
+@media (max-width: 50em) {
+
+body{
+  width: 85%;
+}
+
+header,p,article{
+  width:95%;
+  padding: 0.5em;
+}
+article { flex-flow: column;
+  flex direction: column;
+
+}
+
+section {width:90%}
+
+.aside {border-left: none;
+        margin: 0;
+        padding-left: 1em;
+        font-size: 1.2em;}
+}
+
+/*----------------SMARTPHONE-------------------*/
+
+@media (max-width:30em) {
+
+body {
+  margin: auto 0;
+  width: 100;
+  font-size: 135%;
+}
+
+nav ul li {
+  display:block;
+  margin: 20px;
+}
+
+table {font-size: 90%}
+
+article{
+  width: 90%;
+}
+
+h1 {
+  font-size: 2em;
+  line-height: 1.3;
+}
+
+blockquote {
+  font-size: 2em;
+  padding:0;
+  line-height: 1.6em;
+
+}
+
+hgroup h2 {
+  font-size: 1.5em;
+  padding-top: 0.5em;
+}
+
+nav ul li {
+  font-size: 0.75em;
+  margin: 10px;
+}
+
+img {display:none;}

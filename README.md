@@ -20,3 +20,4 @@
 
 [Version 4](https://janedonnelly.github.io/john_baskerville/historyoftype4.html)
 
+[Version 5](https://janedonnelly.github.io/john_baskerville/historyoftype5.html)

@@ -11,4 +11,10 @@
 [Version 5](https://janedonnelly.github.io/john_baskerville/baskerville5.html)
 
 # Type History
-[Version 1](https://janedonnelly.github.io/historyoftype/historyoffont.html)
+[Version 1](https://janedonnelly.github.io/historyoftype/historyoftype.html)
+
+[Version 2](https://janedonnelly.github.io/historyoftype/historyoftype2.html)
+
+[Version 3](https://janedonnelly.github.io/historyoftype/historyoftype3.html)
+
+[Version 4](https://janedonnelly.github.io/historyoftype/historyoftype4.html)

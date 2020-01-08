@@ -15,5 +15,5 @@
 
 [Version 2](https://janedonnelly.github.io/historyoftype/historyoftype2.html)
 
-[Version 3](file:///Users/janedonnelly/Documents/GitHub/history%20of%20type/historyoftype3.html)
+[Version 3](https://janedonnelly/Documents/GitHub/history%20of%20type/historyoftype3.html)
 

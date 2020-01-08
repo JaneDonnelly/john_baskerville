@@ -13,5 +13,7 @@
 # Type History
 [Version 1](https://janedonnelly.github.io/historyoftype/historyoftype.html)
 
-[Version 2](https://janedonnelly.github.io/john_baskerville/historyoftype/historyoftype2.html)
+[Version 2](https://janedonnelly.github.io/historyoftype/historyoftype2.html)
+
+[Version 3](file:///Users/janedonnelly/Documents/GitHub/history%20of%20type/historyoftype3.html)
 
